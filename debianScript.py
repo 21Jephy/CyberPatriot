@@ -1,5 +1,5 @@
 import subprocess, os, time, sys, json, grp, pwd
-
+print("Made by Exaphis. Modified for Debian by Nirav")
 
 def print_difference(set1, set1name, set2, set2name):
     print("{} - {}: {}".format(set1name, set2name, ", ".join(set1 - set2)))
